@@ -3,7 +3,7 @@ import Link from "next/link"
 import { ReactNode } from "react"
 import { SlLink } from "react-icons/sl"
 type Button = {
-    href?: string,
+    href: string,
     children: ReactNode
 }
 export default function Button({href, children}:Button){
