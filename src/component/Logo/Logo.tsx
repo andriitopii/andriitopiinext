@@ -10,7 +10,7 @@ type LogoHref = {
 export default function Logo ({href, img}: LogoHref) {
     return (
         <Link className={styles.logo} href={href}>
-            <Image alt="Логотип" width={`100%`} height={48} src={img ? imgWhite : imgBlack}/>
+            <Image alt="Логотип" width={48} height={48} src={img ? imgWhite : imgBlack}/>
         </Link>
     )
 }
