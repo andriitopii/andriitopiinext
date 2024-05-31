@@ -1,33 +1,19 @@
+"use client"
 import Link from "next/link";
 import Logo from "../Logo/Logo";
-import styled from "./Header.module.css";
+import styled from "./Header.module.scss";
+import Button from "../Button/Button";
 export default function Header() {
   return (
     <header>
       <div className="container">
         <div className={styled.header}>
-          <Logo href={"/"} />
-          <search>
-            <form>
-              <input name="fsrch" id="fsrch" placeholder="Search W3Schools" />
-            </form>
-          </search>
-          <nav>
-            <ul className={styled.menu}>
-              <li>
-                <Link href="/course">Курси</Link>
-              </li>
-              <li>
-                <Link href="/service">Послуги</Link>
-              </li>
-              <li>
-                <Link href="/blog">Блог</Link>
-              </li>
-              <li>
-                <Link href="/about">Про нас</Link>
-              </li>
-            </ul>
-          </nav>
+          <button className={styled.header__menuBtn}>МЕНЮ</button>
+  
+          <Button href="/order">Залишити <br></br> замовлення</Button>
+
+         
+          
         </div>
       </div>
     </header>

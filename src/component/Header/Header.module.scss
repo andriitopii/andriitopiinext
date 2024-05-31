@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    border-radius: var(--first-radius);
+    &__menuBtn{
+        display: flex;
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--main-black-bright-color);
+    }
+}
+
