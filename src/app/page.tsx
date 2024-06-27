@@ -8,7 +8,8 @@ export default function Home() {
    <>
    
  
-   <h1>Сайт в розробці !</h1>
+          <h1>Сайт в розробці !</h1>
+           <p>sdfsdfsdfsdfsdfsdfsddfsdfsdf</p>
    </>
     
    
