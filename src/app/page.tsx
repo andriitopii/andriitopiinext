@@ -1,17 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.scss";
+﻿import Image from "next/image";
 import Link from "next/link";
-import HomeHero from "@/component/HomeHero/HomeHero";
-import HomeAbout from "@/component/HomeAbout/HomeAbout";
+import "./page.module.css";
 
 export default function Home() {
   
   return (
    <>
    
-    <HomeHero/>
-   <HomeAbout/>
-   
+ 
+   <h1>Сайт в розробці</h1>
    </>
     
    
